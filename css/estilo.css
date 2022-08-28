@@ -46,6 +46,25 @@ a:hover{background-color:  #aaf0ff;}
 
 p{font-size: 12px; font-weight: bolder; text-align: center; margin-top: 5px;}
 
+
+.btn-enviar, .btn-resetear{
+    width: 10%;
+    outline: none;
+   background-color:  #aaf0ff;
+   border: none;
+   font-size: 14px;
+   cursor: pointer;
+}
+.btn-resetear:hover{
+    filter: brightness(130%);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.btn-enviar:hover{
+    filter: brightness(130%);
+    transition: 0.5s;
+    opacity: 0.5;
+}
 /* media querys */
 @media screen and (max-width:768px){ 
     h1{font-size: 30px;}
