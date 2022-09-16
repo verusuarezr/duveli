@@ -33,7 +33,7 @@ a:hover{background-color:  #aaf0ff;}
 
 .rounded{padding: 10px; }
 
-.reel {padding-top: 20px;padding-bottom: 25px;margin: 50 10px;}
+.reel { padding-bottom: 25px; margin-top: 20px;}
 
 .articulos{
     flex-wrap: wrap; display: flex;}
@@ -44,13 +44,17 @@ a:hover{background-color:  #aaf0ff;}
 
 .tituloTres{font-size: 15px; font-weight: bolder;}
 
-p{font-size: 12px; font-weight: bolder; text-align: center; margin-top: 5px;}
+p{font-size: 12px; font-weight: bolder; text-align: center; margin-top: 5px; padding: 10px;}
 
-
+.form-label, .form-control{
+ border-radius: 10px;
+ border-color: #a3e4ff;
+ 
+}
 .btn-enviar, .btn-resetear{
-    outline: none;
-   background-color:  #aaf0ff;
-   border: none;
+    border-color: #a3e4ff;
+background-color:  #aaf0ff;
+  border-radius: 5px;
    font-size: 16px;
    cursor: pointer;
 }
